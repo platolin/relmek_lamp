@@ -1,0 +1,37 @@
+version: '2'
+
+services:
+### Ubuntu lamp Server Container ##################################
+
+    ubuntu:
+        build:
+            context: ./ubuntu            
+        volumes_from:
+            - volumes_source
+        volumes:
+            - ./logs/apache2:/var/log/apache2            
+        ports:
+            - "80:80"
+            - "443:443"        
+
+### Laravel Application Code Container ######################
+
+    volumes_source:
+        build: ./volumes/application
+        volumes:
+            - ../relmek/:/var/www/html/relmek
+            - ../var_test_221/lib/mysql/:/var/lib/mysql
+            # Demonstration of how to mount multiple sites
+            # - ../../site_a/:/var/www/site_a
+            # - ../../site_b/:/var/www/site_b
+
+### Databases Data Container ################################
+
+    volumes_data:
+        build: ./volumes/data
+        volumes:
+            #- ./data/mysql:/var/lib/mysql
+            
+            - ./data/sessions:/sessions
+
+### Add more Containers below ###############################
