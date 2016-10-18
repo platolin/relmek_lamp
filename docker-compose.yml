@@ -4,6 +4,8 @@ services:
 ### Ubuntu lamp Server Container ##################################
 
     ubuntu:
+        restart: always
+
         build:
             context: ./ubuntu            
         volumes_from:
@@ -19,6 +21,8 @@ services:
 ### Laravel Application Code Container ######################
 
     volumes_source:
+        restart: always
+
         build: ./volumes/application
         volumes:
             - ../var/www/html/:/var/www/html/
@@ -30,6 +34,8 @@ services:
 ### Databases Data Container ################################
 
     volumes_data:
+        restart: always
+
         build: ./volumes/data
         volumes:
             #- ./data/mysql:/var/lib/mysql
