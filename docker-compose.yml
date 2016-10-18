@@ -10,17 +10,19 @@ services:
             - volumes_source
         volumes:
             - ./logs/apache2:/var/log/apache2            
+            - ./logs/mysql:/var/log/mysql
         ports:
             - "80:80"
-            - "443:443"        
+            - "443:443"
+            - "3306:3306"
 
 ### Laravel Application Code Container ######################
 
     volumes_source:
         build: ./volumes/application
         volumes:
-            - ../relmek/:/var/www/html/relmek
-            - ../var_test_221/lib/mysql/:/var/lib/mysql
+            - ../var/www/html/:/var/www/html/
+            - ../var/lib/mysql/:/var/lib/mysql
             # Demonstration of how to mount multiple sites
             # - ../../site_a/:/var/www/site_a
             # - ../../site_b/:/var/www/site_b

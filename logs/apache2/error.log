@@ -47,3 +47,8 @@ Created directory: /var/lib/snmp/mib_indexes
 [Tue Oct 18 13:36:59.923077 2016] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.20 configured -- resuming normal operations
 [Tue Oct 18 13:36:59.923129 2016] [core:notice] [pid 11] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
 [Tue Oct 18 13:37:19.914826 2016] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.2. Set the 'ServerName' directive globally to suppress this message
+Created directory: /var/lib/snmp/mib_indexes
+[Tue Oct 18 14:58:45.993158 2016] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.20 configured -- resuming normal operations
+[Tue Oct 18 14:58:45.993209 2016] [core:notice] [pid 11] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Oct 18 15:08:25.443566 2016] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
