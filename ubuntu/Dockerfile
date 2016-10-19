@@ -10,7 +10,7 @@ RUN apt-get update -y
 # install http
 RUN apt-get install -y apache2 vim bash-completion unzip
 RUN mkdir -p /var/lock/apache2 /var/run/apache2
-
+RUN a2enmod rewrite
 # install mysql
 RUN apt-get install -y mysql-client mysql-server
 #RUN echo "NETWORKING=yes" > /etc/sysconfig/network

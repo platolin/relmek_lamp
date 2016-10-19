@@ -84,3 +84,21 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Wed Oct 19 16:27:09.587687 2016] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.20 configured -- resuming normal operations
 [Wed Oct 19 16:27:09.587856 2016] [core:notice] [pid 11] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
 [Wed Oct 19 16:27:30.183702 2016] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+Created directory: /var/lib/snmp/mib_indexes
+[Wed Oct 19 16:49:23.915245 2016] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.20 configured -- resuming normal operations
+[Wed Oct 19 16:49:23.915297 2016] [core:notice] [pid 11] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Oct 19 16:50:12.051400 2016] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.5. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 19 17:06:48.721146 2016] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.20 configured -- resuming normal operations
+[Wed Oct 19 17:06:48.721194 2016] [core:notice] [pid 11] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Oct 19 17:12:09.999221 2016] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.5. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 19 17:12:15.102090 2016] [mpm_prefork:notice] [pid 10] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.20 configured -- resuming normal operations
+[Wed Oct 19 17:12:15.103017 2016] [core:notice] [pid 10] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Oct 19 17:13:50.854417 2016] [mpm_prefork:notice] [pid 10] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+Created directory: /var/lib/snmp/mib_indexes
+[Wed Oct 19 17:30:18.848790 2016] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.20 configured -- resuming normal operations
+[Wed Oct 19 17:30:18.848836 2016] [core:notice] [pid 11] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Oct 19 17:30:26.030646 2016] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
