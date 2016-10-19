@@ -71,3 +71,16 @@ Created directory: /var/lib/snmp/mib_indexes
 [Wed Oct 19 15:50:54.982835 2016] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.20 configured -- resuming normal operations
 [Wed Oct 19 15:50:54.982884 2016] [core:notice] [pid 11] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
 [Wed Oct 19 15:52:49.454675 2016] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 19 16:23:15.764343 2016] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.20 configured -- resuming normal operations
+[Wed Oct 19 16:23:15.764391 2016] [core:notice] [pid 11] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Oct 19 16:24:41.057820 2016] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.5. Set the 'ServerName' directive globally to suppress this message
+Created directory: /var/lib/snmp/mib_indexes
+[Wed Oct 19 16:26:13.297824 2016] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.20 configured -- resuming normal operations
+[Wed Oct 19 16:26:13.297877 2016] [core:notice] [pid 11] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Oct 19 16:26:51.199518 2016] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.5. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 19 16:27:09.587687 2016] [mpm_prefork:notice] [pid 11] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.20 configured -- resuming normal operations
+[Wed Oct 19 16:27:09.587856 2016] [core:notice] [pid 11] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Oct 19 16:27:30.183702 2016] [mpm_prefork:notice] [pid 11] AH00169: caught SIGTERM, shutting down
