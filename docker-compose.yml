@@ -17,7 +17,21 @@ services:
             - "80:80"
             - "443:443"
             - "3306:3306"
+### ftp Server Container ##################################
 
+    ftp:
+        restart: always
+
+        build:
+            context: ./ftp
+        volumes_from:
+            - volumes_source
+        volumes:
+            - ../var/www/html/:/var/www/html/
+            
+        ports:
+            - "21:21"
+            
 ### Laravel Application Code Container ######################
 
     volumes_source:

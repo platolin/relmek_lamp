@@ -25,3 +25,7 @@
 172.19.0.2:80 172.19.0.1 - - [18/Oct/2016:13:22:42 +0800] "GET /forum HTTP/1.1" 301 564 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0"
 172.19.0.2:80 172.19.0.1 - - [18/Oct/2016:13:22:42 +0800] "GET /forum/ HTTP/1.1" 503 2211 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0"
 172.19.0.2:80 ::1 - - [18/Oct/2016:13:22:42 +0800] "OPTIONS * HTTP/1.0" 200 125 "-" "Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.20 (internal dummy connection)"
+172.19.0.5:80 172.19.0.1 - - [19/Oct/2016:15:46:26 +0800] "GET / HTTP/1.1" 200 581 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0"
+172.19.0.5:80 172.19.0.1 - - [19/Oct/2016:15:46:26 +0800] "GET /icons/blank.gif HTTP/1.1" 200 430 "http://127.0.0.1/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0"
+172.19.0.5:80 172.19.0.1 - - [19/Oct/2016:15:46:26 +0800] "GET /favicon.ico HTTP/1.1" 404 498 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0"
+172.19.0.5:80 172.19.0.1 - - [19/Oct/2016:15:46:26 +0800] "GET /favicon.ico HTTP/1.1" 404 498 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0"

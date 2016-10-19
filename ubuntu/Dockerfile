@@ -44,6 +44,7 @@ RUN echo "Asia/Taipei" > /etc/timezone && dpkg-reconfigure -f noninteractive tzd
 
 ADD phpinfo.php /var/www/html/
 RUN mkdir /etc/apache2/ssl
+ADD ./mysql/my.cnf /etc/mysql/my.cnf
 ADD ./apache2/000-default.conf /etc/apache2/sites-available
 ADD ./apache2/ssl/apache.key /etc/apache2/ssl
 ADD ./apache2/ssl/apache.pem /etc/apache2/ssl
