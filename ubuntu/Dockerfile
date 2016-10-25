@@ -39,7 +39,7 @@ RUN mkdir -p /root/.ssh && touch /root/.ssh/authorized_keys && chmod 700 /root/.
 #ADD id_rsa.pub /root/.ssh/authorized_keys
 
 #install smtp 
-RUN  apt-get install -y exim4-daemon-light mailutils
+RUN  apt-get install -y exim4-daemon-light mailutils 
 
 # Set the time zone
 RUN echo "Asia/Taipei" > /etc/timezone && dpkg-reconfigure -f noninteractive tzdata 
@@ -51,6 +51,7 @@ ADD ./mysql/my.cnf /etc/mysql/my.cnf
 ADD ./apache2/000-default.conf /etc/apache2/sites-available
 ADD ./apache2/ssl/apache.key /etc/apache2/ssl
 ADD ./apache2/ssl/apache.pem /etc/apache2/ssl
+ADD update-exim4.conf.conf /etc/exim4
 ADD supervisord.conf /etc/
 EXPOSE 22 80 443
 
