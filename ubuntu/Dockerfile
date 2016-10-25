@@ -39,7 +39,7 @@ RUN mkdir -p /root/.ssh && touch /root/.ssh/authorized_keys && chmod 700 /root/.
 #ADD id_rsa.pub /root/.ssh/authorized_keys
 
 #install smtp 
-RUN  apt-get install -y mailutils
+RUN  apt-get install -y exim4-daemon-light mailutils
 
 # Set the time zone
 RUN echo "Asia/Taipei" > /etc/timezone && dpkg-reconfigure -f noninteractive tzdata 
