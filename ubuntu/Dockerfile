@@ -38,6 +38,9 @@ RUN echo 'root:changeme' | chpasswd
 RUN mkdir -p /root/.ssh && touch /root/.ssh/authorized_keys && chmod 700 /root/.ssh
 #ADD id_rsa.pub /root/.ssh/authorized_keys
 
+#install smtp 
+RUN  apt-get install -y mailutils
+
 # Set the time zone
 RUN echo "Asia/Taipei" > /etc/timezone && dpkg-reconfigure -f noninteractive tzdata 
 

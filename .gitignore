@@ -2,4 +2,3 @@ logs/*
 ubuntu/000-default.conf
 ubuntu/apache2/*
 logs/apache2/error.log
-
