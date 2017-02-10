@@ -17,6 +17,17 @@ services:
             - "80:80"
             - "443:443"
             - "3306:3306"
+### gitlab-runner Server Container ##################################
+
+    gitlab-runner:
+        restart: always
+
+        image: gitlab/gitlab-runner
+        volumes_from:
+            - volumes_source
+        volumes:
+            - ../var/www/html/:/var/www/html/             
+            
 ### ftp Server Container ##################################
 
     ftp:
@@ -39,7 +50,7 @@ services:
 
         build: ./volumes/application
         volumes:
-            - ../var/www/html/:/var/www/html/
+            - ../var/www/:/var/www/
             - ../var/lib/mysql/:/var/lib/mysql
             # Demonstration of how to mount multiple sites
             # - ../../site_a/:/var/www/site_a

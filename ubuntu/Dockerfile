@@ -41,6 +41,11 @@ RUN mkdir -p /root/.ssh && touch /root/.ssh/authorized_keys && chmod 700 /root/.
 #install smtp 
 RUN  apt-get install -y mailutils postfix
 
+#install pear MDB2& DB
+RUN pear install MDB2
+RUN pear install MDB2_Driver_mysql
+RUN pear install PEAR
+RUN pear install DB
 # Set the time zone
 RUN echo "Asia/Taipei" > /etc/timezone && dpkg-reconfigure -f noninteractive tzdata 
 
